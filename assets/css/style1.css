@@ -1,0 +1,165 @@
+@font-face{
+    src: url('SAMAN___.TTF');
+    font-family: sam;
+}
+@font-face{
+  src: url('Product Sans Regular.ttf');
+  font-family: product;
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right bottom, 
+    rgba(0, 0, 0, 0.7), rgba(37, 37, 37, 0.7)), 
+    url('../Images/bg (1).jpg');
+  }
+.nav_head{
+    color: white;
+    margin-left: 4.5rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: sam;  
+}
+/* .nav_img{
+    margin-left: 3rem;
+    width: 18rem;
+    height: 3rem;
+} */
+.east-india{
+    /* background-color: rgba(82, 80, 80, 0.301); */
+    /* width: 80%; */
+    /* height: 80%; */
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.col-1-of-2 {
+    width: calc((100% - 4rem )/2); 
+    display: inline-block;
+}
+.east-india_h1{
+    position: relative;
+    width: fit-content;
+    text-transform: uppercase;
+    top:2rem;
+    color: white;
+    left: 3rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+
+}
+.east-india_h1::first-letter{
+  font-size: 3rem;  
+  font-weight: 900;
+}
+/* .east-india_h1::first-letter{
+  font-size: 4rem;
+
+}
+.east-india_h1-col2::first-letter{
+  font-size: 4rem;
+} */
+.east-india_p{
+    color:rgb(207 209 207);
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    margin-right:3rem ;
+    word-spacing: 10px;
+    font-family: product;
+}
+.east-india_p::first-letter{
+  font-size: 3.5rem;
+  float: left;
+  color: rgb(230, 230, 230);
+  margin-top: -.5rem;
+  margin-bottom: -1rem;
+}
+.composition {
+    top:-24rem;
+    width: 40rem;
+    position: relative; }
+ .composition1 {
+  top:6rem;
+  left: 4rem;
+  width: 38rem;
+  position: relative; } 
+    .composition__photo {
+      width: 55%;
+      box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.6);
+      border-radius: 2px;
+      position: absolute;
+      z-index: 10;
+      transition: all .2s;
+      outline-offset: 1.5rem; }
+      .composition__photo--p1 {
+        left: 0;
+        top: -2rem; 
+      }
+      .composition__photo--p2 {
+        right: 0;
+        top: 2rem; 
+      }
+      .composition__photo--p3 {
+        left: 20%;
+        top: 10rem; 
+      }
+      .composition__photo:hover {
+        /* outline: 1.5rem solid #55c57a; */
+        transform: scale(1.1) translateY(-0.8rem);
+        box-shadow: 0rem 2rem 2rem 0rem rgba(0, 0, 0, 0.5);
+        z-index: 20; }
+    .composition:hover .composition__photo:not(:hover) {
+      transform: scale(0.9); 
+      opacity: .5;
+    }
+    .composition1:hover .composition__photo:not(:hover) {
+      transform: scale(0.9); 
+      opacity: .5;
+    }
+    .col-2-of-1 {
+      width: calc((100% - 4rem )/2); 
+      display: inline-block;
+  }
+  .east-india_p1{
+    /* background-color: rgba(129, 125, 125, 0.301);; */
+    position: relative;
+    left: 44rem; 
+    color: rgb(207 209 207);
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    margin-right:3rem ;
+    word-spacing: 10px;
+    font-family: product;
+  }
+  .east-india_p1::first-letter{
+    font-size: 3.5rem;
+    float: left;
+    color: rgb(230, 230, 230);
+    margin-top: -.5rem;
+    margin-bottom: -1rem;
+  }
+  .east-india_h1-col2{
+    position: relative;
+    top:2rem;
+    width: fit-content;
+    text-transform: uppercase;
+    color: white;
+    left: 47rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+  }
+  .east-india_h1-col2::first-letter{
+    font-size: 3rem;  
+    font-weight: 900;
+  }
+  .border{
+    border-bottom: .5px solid rgba(190, 190, 190, 0.61);
+    z-index: 100;
+  }
+  

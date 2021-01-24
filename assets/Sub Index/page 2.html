@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/page2.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fontmeme.com/fonts/samarkan-font/" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap" rel="stylesheet">
+        <title>Tourist Maps</title>
+    </head>
+    <body>
+        <div class="icon-head">
+            <h1 class="topic">Incredible India</h1>
+
+            <h1 class="head_icon">Regions in India</h1>
+            <div class="reg-maps">
+                <span class="maps1">
+                    <div class="maps_comp">
+                        <img  class=" icons img one"  src="../Images/CENTRAL.png" >
+                        <h6 class="map-name img one">Central India<div class="border"></div></h6>
+                    </div>
+                    <section class="hover-region first">
+                        <span class="ho-pla place-one">
+                            <img src="../Images/Chitrakote (1).jpg" class=" pla1 place map1 one_small" alt="Chitakota" onclick='window.location.href="../Sub Index/index6.html"'>
+                            <p class="place_caption">Read More</p>
+                        </span>
+                        <span class="ho-pla place-two">
+                            <img src="../Images/Sunchi (1).jpg" class="pla2 place map1 two_small" alt="Sanchi Supta" onclick='window.location.href="../Sub Index/index7.html"'>
+                            <p class="place_caption">Read More</p>
+                        </span>
+                    </section>
+                </span>
+                <span class="maps1 two">
+                    <img  class=" icons img two"  src="../Images/EAST.png">
+                    <h6 class="map-name img two">East India<div class="border"></div></h6>
+                    <section class="hover-region two">
+                        <span class="ho-pla place-one">
+                            <img src="../Images/Sundarban (1).jpg" class="pla3 place one_small" alt="Chitakota" onclick='window.location.href="../Sub Index/index1.html "'>
+                            <p class="place_caption mid">Read More</p>
+                        </span>
+                        <span class="ho-pla place-two">
+                            <img src="../Images/Konark (1).jpg" class="pla4 place two_small" alt="Sanchi Supta" onclick='window.location.href="../Sub Index/index2.html "'>
+                            <p class="place_caption mid">Read More</p>
+                        </span>
+                        <div class="place-three">
+                            <img src="../Images/buddha (1).jpg" class="pla5 place map2 two_small" alt="Bodh Gaya" onclick='window.location.href="../Sub Index/index3.html "'>
+                            <p class="place_caption third">Read More</p>
+                        </div>
+
+                    </section>
+                </span>
+                <span class="maps1">
+                    <img  class=" icons img three"  src="../Images/NORTH.png">
+                    <h6 class="map-name img three">North India<div class="border"></div></h6>
+                    <section class="hover-region third">
+                        <span class="ho-pla place-one">
+                            <img src="../Images/Baramulla (2).jfif" class="pla6 place one_small" alt="Baramulla" onclick='window.location.href="../Sub Index/Jammu Kashmir.html "'>
+                            <p class="place_caption mid">Read More</p>
+                        </span>
+                        <span class="ho-pla place-two">
+                            <img src="../Images/Amritsar (1).jfif" class="pla17 place two_small" alt="Amritsar" onclick='window.location.href="../Sub Index/Punjab.html "'>
+                            <p class="place_caption mid">Read More</p>
+                        </span>
+                    </section>
+                </span>
+                <span class="maps1 two">
+                    <img  class=" icons img four"  src="../Images/SOUTH.png">
+                    <h6 class="map-name img four">South India<div class="border"></div></h6>
+                    <section class="hover-region four">
+                        <span class="ho-pla place-one">
+                            <img src="../Images/paradise-beach (1).jpg" class="pla8 place one_small" alt="Chitakota" onclick='window.location.href="../Sub Index/pondicherry.html"' >
+                            <p class="place_caption mid">Read More</p>
+                        </span>
+                        <span class="ho-pla place-two">
+                            <img src="../Images/Alleppey (1).jpg" class="pla9 place two_small" alt="Sanchi Supta" onclick='window.location.href="../Sub Index/kerala.html"'>
+                            <p class="place_caption mid">Read More</p>
+                        </span>
+                        <span class="ho-pla place-three">
+                            <img src="../Images/Guntur (1).jpg" class="pla10 place map2 two_small" alt="Sanchi Supta" onclick='window.location.href="../Sub Index/andhra_pradesh.html"'>
+                            <p class="place_caption third ">Read More</p>
+                        </span>
+                    </section>
+                </span>
+                <span class="maps1">
+                    <img  class=" icons img five" id="five" src="../Images/WEST.png">
+                    <h6 class="map-name img five" id="five">West India<div class="border"></div></h6>
+                    <section class="hover-region last">
+                        <span class="ho-pla place-one">
+                            <img src="../Images/Goa (1).jpg" class="pla12 place one_small" alt="Chitakota" onclick='window.location.href="../Sub Index/index4.html"'>
+                            <p class="place_caption mid">Read More</p>
+                        </span>
+                        <span class="ho-pla place-two">
+                            <img src="../Images/kutch (1).jpg " class="pla13 place two_small" alt="Sanchi Supta" onclick='window.location.href="../Sub Index/index5.html"'>
+                            <p class="place_caption mid">Read More</p>
+                        </span>
+                    </section>
+                <span>
+            </div>
+        </div>
+        <div class="indicator2">
+
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <span class="back">Go Back Scroll</span>
+    </div>
+        <script>
+            window.addEventListener('scroll',() => {
+                const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+                const scrolled = window.scrollY;
+                if(Math.ceil(scrolled)===scrollable){
+                    window.location.href="../../frontindex.html";
+                console.log("Reached End");
+                }
+            });
+        </script>
+    </body>
+</html>

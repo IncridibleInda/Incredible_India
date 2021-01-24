@@ -1,0 +1,235 @@
+@font-face{
+    src: url('SAMAN___.TTF');
+    font-family: saman;
+}
+@font-face{
+    src: url('Product Sans Regular.ttf');
+    font-family: product;
+  }
+
+body{
+    /* background-color: rgb(26, 26, 26); */
+    background-image: linear-gradient(to right bottom, 
+    rgba(29, 29, 29, 0.89), rgba(7, 7, 7, 0.678)), 
+    url('../Images/bg\ \(2\).png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75rem;
+    
+}
+.icon-head{
+    
+    color: white;
+
+}
+.topic{
+    position: relative;
+    top:1.5rem;
+    left: 3.5rem;
+    width:70rem;
+    font-family: saman;
+}
+.head_icon{
+    position: relative;
+    left: 3rem;
+    width:70rem;
+    font-size: 3rem;
+    font-family: product;
+    top: 2rem;
+    color: whitesmoke;
+}
+.icons:not(:last-child){
+    position: relative;
+    width:8rem;
+    margin-left: 6rem;
+    opacity: .8;
+    /* top:2rem; */
+
+}
+.maps1{
+    /* width: 18rem;
+    height: 40rem;
+    margin: auto; */
+    display: inline-block;
+    transition: all .2s;
+}
+
+.maps1:hover .hover-region{
+    visibility:visible;
+}
+.maps1:hover .img {
+    transform: scale(0.9);
+    opacity: 1;
+}
+
+.maps1:hover .map-name{
+    top: 0rem;
+}
+.map-name{
+    margin-left: 9rem;
+    top:2rem;
+    font-size: 1.5rem;
+    position: relative;
+    font-family: product;
+
+}
+.border{
+    padding-top: 6px;
+    padding-left:5px;
+    border-bottom: 1px solid rgb(90, 90, 90);
+}
+h6.one{
+    position: relative;
+    left: -3.5rem;
+}
+h6.two{
+    position: relative;
+    left: -3rem;
+}
+h6.three{
+    position: relative;
+    left: -3rem;
+}
+h6.four{
+    position: relative;
+    left: -3.3rem;
+}
+span.two{
+    top: 6.8rem;
+    position: relative;
+}
+#five{
+    margin-left: 4rem;
+}
+.hover-region{
+    width:16rem;
+    height:25vh;
+    display: inline-block;
+    visibility: hidden;
+    /* background-color: yellow; */
+    /* margin-left: 2rem; */
+    /* padding-left: 2rem; */
+}
+img.place{
+    width:5.5rem;
+    height:3.5rem;
+    transition: 0.2s all;
+}
+.ho-pla{
+   margin-left: .5rem;
+   display: inline-block;
+}
+.place{
+    border-radius: 5px;
+    overflow: hidden;
+}
+img.map1{
+    padding-left: .5rem;;
+}
+img.map2.two_small{
+    margin-left:3.5rem ;
+    transform: translateY(-2rem);
+}
+.hover-region.last{
+    transform: translateX(3rem);
+}
+.hover-region.four{
+    transform: translateX(2.5rem);
+}
+.hover-region.third{
+    transform: translateX(3rem);
+}
+.hover-region.two{
+    transform: translateX(2.5rem);
+}
+.hover-region.first{
+    transform: translateX(1.5rem);
+}
+.place_caption{
+    opacity: 0;
+    font-family: product;
+    color: black;
+    visibility: hidden;
+    transform: translate(1rem,-1rem);
+
+}
+.place_caption.third{
+    transform: translate(4.5rem,-1rem);
+}
+.place:hover +.place_caption{
+    visibility: visible;
+    opacity: 1;
+    transform: translate(1rem,-3.5rem);
+    color: white;
+}
+.place:hover +.place_caption.third{
+    transform: translate(4rem,-5.5rem);
+}
+.place:hover{
+    filter: blur(2px) brightness(80%);
+    opacity: .6;
+}
+.place:hover +.place_caption.mid{
+    transform: translate(0.5rem,-3.5rem);
+}
+.indicator2
+  {
+    position:absolute;
+    bottom: -3rem;
+    margin-top: 30rem;
+    margin-left: 48%;
+    width:30px;
+    height:30px;
+    transform:rotate(45deg);
+  }
+  .indicator2 span{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    border:none;
+    border-bottom:3px solid #fff;
+    border-right:3px solid #fff;
+    animation:animate 1s linear infinite;
+  }
+  .indicator2 span:nth-child(1){
+    top:-30px;
+    left:-30px;
+    animation-delay:0s;
+  }
+  .indicator2 span:nth-child(2){
+    top:-15px;
+    left:-15px;
+    animation-delay:0.2s;
+  }
+  .indicator2 span:nth-child(3){
+    top:0;
+    left:0;
+    animation-delay:0.4s;
+  }
+  @keyframes animate{
+    0%{
+      border-color:#fff;
+      transform:translate(0,0);
+    }
+    20%{
+      border-color:#fff;
+      transform:translate(15px,15px);
+    }
+    20.1%,100%{
+      border-color:#ffd64a;
+    }
+  }
+  .back{
+      font-size: 1.5rem;
+      font-family: product;
+      color: white;
+      text-align: center;
+      position: relative;
+      left: 40rem;
+      top: 10rem;
+      /* transform: translateX(50%); */
+  }
