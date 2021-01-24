@@ -173,6 +173,11 @@ body{
     width:70rem;
     font-family: saman;
 }
+.reg-maps{
+  position: relative;
+  justify-content: center;
+  left: 4%;
+}
 .head_icon{
     position: relative;
     left: 3rem;
