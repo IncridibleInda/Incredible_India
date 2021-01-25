@@ -23,6 +23,30 @@ body{
     font-size: 2rem;
     font-family: sam;  
 }
+.comp_Add{
+  position: absolute;
+  right:7%;
+  top: 2rem;
+  z-index: 5;
+  
+}
+.add_course{
+  padding: .7rem;
+ 
+  background-color: transparent;
+  border: 3px solid rgb(0, 148, 0);
+  border-radius: 2rem;
+  transition: .5s all;
+}
+.a-add_course{
+  color: aliceblue;
+  font-weight:700 ;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.add_course:hover{
+  background-color:  rgb(0, 148, 0);
+}
 /* .nav_img{
     margin-left: 3rem;
     width: 18rem;
