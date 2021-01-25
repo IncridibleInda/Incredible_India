@@ -43,6 +43,7 @@ body{
   font-weight:700 ;
   font-size: 1rem;
   text-decoration: none;
+  position: fixed;
 }
 
 .add_course:hover{
